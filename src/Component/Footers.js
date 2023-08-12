@@ -8,7 +8,7 @@ import footer from '../images/Footer img.png'
 
 
 
-const Footer = () => {
+const Footers = () => {
   return (
     <div className='footer'>
         <div className='lop'>   
@@ -55,11 +55,11 @@ const Footer = () => {
         </div>
          <hr></hr>
          <div className='lst'>
-        <h4>Copyright @ Xpro 2022. All Rights Reserved.</h4>
+        <h6>Copyright @ Xpro 2022. All Rights Reserved.</h6>
         </div>
           
     </div>
   )
 }
 
-export default Footer
+export default Footers
