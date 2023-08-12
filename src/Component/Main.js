@@ -15,8 +15,10 @@ import rectanImage from '../images/Rectangle 10.png'
 const Main = () => {
   return (
     <div>
+        <div className='az'>
         <h4 className='center'>CATEGORY</h4>
         <h4 className='cen'>we offer Best Services</h4>
+        </div>
     <div className='flex'>
         <div className='flex1'> 
         <img  src={rectangleImage }></img>
@@ -80,20 +82,43 @@ const Main = () => {
             <div className='ttt'>
             <img  src={rectanImage}></img>
             </div>
-            <div className='qui'>
-                <div class="grid-item">+</div>
-                <div class="grid-item">+</div>
-                <div class="grid-item">+</div>
-                <div class="grid-item"><span>+</span></div>
-                <div class="grid-item">+</div>
-                <div class="grid-item">+</div>
-                <div class="grid-item">+</div>
-                <div class="grid-item"><span>+</span></div>
-                <div class="grid-item">+</div>
-                <div class="grid-item">+</div>
-                <div class="grid-item"><span>+</span></div>
-                <div class="grid-item">+</div>
-                </div> 
+            <section className='d-flex qui'>
+            <div className='d1 ' style={{width:'30px', }}>
+                <div><i class="fa-solid fa-plus fa-sm mb-3 "></i></div>
+                <div><i class="fa-solid fa-plus fa-sm mb-3 "></i></div>
+                <div><i class="fa-solid fa-plus fa-sm mb-3 "></i></div>
+                <div><i class="fa-solid fa-plus fa-sm mb-3 "></i></div>
+                <div><i class="fa-solid fa-plus fa-sm text-danger"></i></div>
+            </div>
+            <div className='d1 ' style={{width:'30px',}}>
+                <div><i class="fa-solid fa-plus fa-sm mb-3 "></i></div>
+                <div><i class="fa-solid fa-plus fa-sm mb-3 "></i></div>
+                <div><i class="fa-solid fa-plus fa-sm mb-3 "></i></div>
+                <div><i class="fa-solid fa-plus fa-sm mb-3 "></i></div>
+                <div><i class="fa-solid fa-plus fa-sm"></i></div>
+            </div>
+            <div className='d1 ' style={{width:'30px',}}>
+                <div><i class="fa-solid fa-plus fa-sm mb-3 "></i></div>
+                <div><i class="fa-solid fa-plus fa-sm mb-3 "></i></div>
+                <div><i class="fa-solid fa-plus text-primary fa-sm mb-3 "></i></div>
+                <div><i class="fa-solid fa-plus fa-sm mb-3 "></i></div>
+                <div><i class="fa-solid fa-plus fa-sm"></i></div>
+            </div>
+            <div className='d1 ' style={{width:'30px',}}>
+                <div><i class="fa-solid fa-plus fa-sm mb-3 "></i></div>
+                <div><i class="fa-solid fa-plus fa-sm text-danger  mb-3 "></i></div>
+                <div><i class="fa-solid fa-plus fa-sm mb-3 "></i></div>
+                <div><i class="fa-solid fa-plus fa-sm mb-3 "></i></div>
+                <div><i class="fa-solid fa-plus fa-sm"></i></div>
+            </div>
+            <div className='d1 ' style={{width:'30px',}}>
+                <div><i class="fa-solid fa-plus mb-3 fa-sm"></i></div>
+                <div><i class="fa-solid fa-plus  mb-3 fa-sm"></i></div>
+                <div><i class="fa-solid fa-plus text-danger  mb-3 fa-sm"></i></div>
+                <div><i class="fa-solid fa-plus  mb-3 fa-sm"></i></div>
+                <div><i class="fa-solid fa-plus fa-sm"></i></div>
+            </div>
+            </section>
             <p className='hori'>Honeymoon Packages</p>
         </div>
         <div className='pp'>

@@ -44,7 +44,7 @@ adipiscing elit. Urna, tortor tempus. </p></h4>
                         </div>
               
         </div>
-        <div className='roll'>
+        <div className='roll' style={{zIndex:'9999999'}}>
             <div className='rrr'> 
                 <img src={tangleImage}></img>
                 </div>
@@ -62,18 +62,44 @@ adipiscing elit. Urna, tortor tempus. </p></h4>
                         <img className='mar' src={heartImage}></img>
                     </div>
                 <div className='qu'>
-                <div class="grid-item">+</div>
-                <div class="grid-item"></div>
-                <div class="grid-item"></div>
-                <div class="grid-item"><span>+</span></div>
-                <div class="grid-item"></div>
-                <div class="grid-item"></div>
-                <div class="grid-item">+</div>
-                <div class="grid-item"><span>+</span></div>
-                <div class="grid-item">+</div>
-                <div class="grid-item">+</div>
-                <div class="grid-item"><span>+</span></div>
-                <div class="grid-item">+</div>
+                <section className='d-flex qu'>
+            <div className='d1' style={{width:'30px', }}>
+                <div><i class="fa-solid fa-plus fa-sm mb-3   text-danger"></i></div>
+                <div><i class="fa-solid fa-plus fa-sm mb-3 "></i></div>
+                <div><i class="fa-solid fa-plus fa-sm mb-3 "></i></div>
+                <div><i class="fa-solid fa-plus fa-sm mb-3 "></i></div>
+                <div><i class="fa-solid fa-plus fa-sm"></i></div>
+            </div>
+            <div className='d1' style={{width:'30px',}}>
+                <div><i class="fa-solid fa-plus fa-sm mb-3 "></i></div>
+                <div><i class="fa-solid fa-plus fa-sm mb-3 "></i></div>
+                <div><i class="fa-solid fa-plus fa-sm mb-3 "></i></div>
+                <div><i class="fa-solid fa-plus fa-sm mb-3 "></i></div>
+                <div><i class="fa-solid fa-plus fa-sm"></i></div>
+            </div>
+            <div className='d1 me-2' style={{width:'30px',}}>
+                <div className=''><i class="fa-solid fa-plus  mb-3 fa-sm text-light"></i></div>
+                <div><i class="fa-solid fa-plus  mb-3 fa-sm text-light"></i></div>
+                <div><i class="fa-solid fa-plus  mb-3 fa-sm text-light"></i></div>
+                <div><i class="fa-solid fa-plus  mb-3 fa-sm"></i></div>
+                <div><i class="fa-solid fa-plus fa-sm text-danger"></i></div>
+            </div>
+            <div className='d1' style={{width:'30px',}}>
+                <div><i class="fa-solid fa-plus fa-sm mb-3 text-light"></i></div>
+                <div><i class="fa-solid fa-plus fa-sm mb-3  text-light"></i></div>
+                <div><i class="fa-solid fa-plus fa-sm mb-3  text-light"></i></div>
+                <div><i class="fa-solid fa-plus fa-sm mb-3  text-danger"></i></div>
+                <div><i class="fa-solid fa-plus fa-sm"></i></div>
+            </div>
+            <div className='d1' style={{width:'30px',}}>
+                <div><i class="fa-solid fa-plus mb-3 fa-sm text-light"></i></div>
+                <div><i class="fa-solid fa-plus  mb-3 fa-sm text-light"></i></div>
+                <div><i class="fa-solid fa-plus text-danger fa-sm mb-3  text-light"></i></div>
+                <div><i class="fa-solid fa-plus fa-sm mb-3 "></i></div>
+                <div><i class="fa-solid fa-plus fa-sm"></i></div>
+            </div>
+            </section>
+
                 </div> 
                 </div>
             </div>  

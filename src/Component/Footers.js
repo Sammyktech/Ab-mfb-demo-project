@@ -10,7 +10,8 @@ import footer from '../images/Footer img.png'
 
 const Footers = () => {
   return (
-    <div className='footer'>
+    <div className='footer container-sm'>
+      <div className='lasstt'>
         <div className='lop'>   
             <div className='lopp'>
                     <h2>Travel</h2>
@@ -53,11 +54,11 @@ const Footers = () => {
 
                
         </div>
-         <hr></hr>
+         <div style={{width:'90%',border:'1px solid gray',marginBottom:'20px',marginLeft:'5%'}}></div>
          <div className='lst'>
         <h6>Copyright @ Xpro 2022. All Rights Reserved.</h6>
         </div>
-          
+      </div>   
     </div>
   )
 }

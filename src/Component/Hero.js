@@ -24,7 +24,7 @@ const Hero = () => {
   return (
     <div className='heroSection container-fluid' >
 <section>
-        <nav className=''>
+        <nav className='d-md-flex align-items-md-center justify-content-md-around'>
          
          <div className='opay mt-5'>
          <h3 id='first'>Travel </h3>
@@ -32,11 +32,12 @@ const Hero = () => {
          </div>
         
 
-<div className='d-flex align-items-center justify-content-around mt-5'>
-<a href='' class=" me-5 text-light active" id='hov'>Home</a>
-        <a href='' class=" me-5 text-light text-decoration-none" id='hov'>About</a>
+        <div className='d-none d-md-block'>
+        <div className='d-flex align-items-center justify-content-around mt-5'>
+<a href='' class="btn me-5 text-light text-decoration-none hov " >Home</a>
+        <a href='' class=" me-5 text-light text-decoration-none hov">About</a>
         <div class="dropdown">
-  <a class=" dropdown-toggle me-5 text-light text-decoration-none" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" id='hov'>
+  <a class=" dropdown-toggle me-5 text-light text-decoration-none hov" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
     Services
   </a>
 
@@ -47,12 +48,27 @@ const Hero = () => {
     <li><a class="dropdown-item" href="#" style={{color:'rgb(222,219,219)'}}>Build Packages</a></li>
   </ul>
 </div>
-<a href='' class=" text-light text-decoration-none" id='hov'>Upcoming Packages</a>
+<a href='' class=" text-light text-decoration-none hov">Upcoming Packages</a>
 </div>
+        </div>
 
 
 
-        <button className='getInTouch mt-5'>Get in Touch</button>
+<div className=''>
+<button className='getInTouch mt-5 d-none d-md-block'>Get in Touch</button>
+
+<div class="dropdown d-md-none mt-4">
+<a class="btn  dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" style={{backgroundColor:'#DF6951'}}>
+<i class="fa-solid fa-bars"></i>
+</a>
+
+<ul class="dropdown-menu">
+<li><a class="dropdown-item" href="#">Home</a></li>
+<li><a class="dropdown-item" href="#">About</a></li>
+<li><a class="dropdown-item" href="#">Upcoming Packages</a></li>
+</ul>
+</div>
+</div>
   </nav>
 </section>
 
@@ -68,13 +84,14 @@ const Hero = () => {
 
   <div className='curl'>
    <img className='top' src={vectorImage}></img>
-   <h3 className='slogan'>No matter where you're <br></br>
-   going to,we'll take you <br></br> <h3 className='shi'>there</h3> </h3>
    </div>
    
-   <div className='opps'>
-   <button type="button" class="btn btn-none"style={{color:'white'}}>Where to?</button>
-    <div className='fro'></div>
+   <h2 className='text-light text'>No matter where you're
+   going to,we'll take you  there</h2>
+   
+   <div className='opps d-md-flex align-items-md-center justify-content-md-around'>
+   <button type="button" class="btn btn-none"style={{color:'white'}}>Where to ?</button>
+    <div className='fro d-none d-md-block'></div>
     <div class="dropdown">
   <button class="btn btn-none dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false"style={{color:'white'}}>
     Travel Type
@@ -85,7 +102,7 @@ const Hero = () => {
     <li><a class="dropdown-item" href="#" style={{color:'rgb(222,219,219)'}}>Travel Type</a></li>
   </ul>
 </div>
-   <div className='fro'></div>
+   <div className='fro d-none d-md-block'></div>
    <div class="dropdown">
   <button class="btn btn-none dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" style={{color:'white'}}>
     Duration
@@ -110,7 +127,7 @@ const Hero = () => {
     <img className='img7' src={elipseImage37}></img>
     <span>+</span>
     </div>
-    <p>2,500 people booked tomorrowland Event in the last 24 hours</p>
+    <p>2,500 people booked tomorrow and Event in the last 24 hours</p>
     
    </div>
 
