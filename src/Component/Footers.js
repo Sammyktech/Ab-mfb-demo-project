@@ -54,7 +54,7 @@ const Footers = () => {
 
                
         </div>
-         <div style={{width:'90%',border:'1px solid gray',marginBottom:'20px',marginLeft:'5%'}}></div>
+         <div style={{width:'90%',border:'1px solid gray',marginBottom:'20px',marginLeft:'5%',background: '#E5E5EA', opacity: '0.5'}}></div>
          <div className='lst'>
         <h6>Copyright @ Xpro 2022. All Rights Reserved.</h6>
         </div>
