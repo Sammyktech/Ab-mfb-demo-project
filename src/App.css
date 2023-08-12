@@ -742,7 +742,7 @@ font-family: Poppins;
   color: #DF6951;
 }
 .footer{
-  background:  rgba(211, 211, 211, 0.055) -0.018px -48px / 154.946% 129.339% url('./images/Footer\ img.png') ;
+  /* background:  rgba(211, 211, 211, 0.055) -0.018px -48px / 154.946% 129.339% url('./images/Footer\ img.png') ; */
   background-repeat: no-repeat;
   background-size: cover;
   height: 70vh;
