@@ -97,7 +97,7 @@ const Hero = () => {
   </ul>
 </div>
   
-<button type="button" class="btn btn-sm ps-5 pe-5" style={{background: '#DF6951', color:'white'}}>Submit</button>
+<button type="button" class="btn btn-lg ps-5 pe-5" style={{background: '#DF6951', color:'white'}}>Submit</button>
    </div>
    <div className='elipse'>
     <div className='lou'>
@@ -113,13 +113,6 @@ const Hero = () => {
     <p>2,500 people booked tomorrowland Event in the last 24 hours</p>
     
    </div>
-{/* <div className='elipse1'>
-<img className='img10' src={elipseImage620}></img>
-<div className='img11'>
-<img  src={elipseImage}></img>
-</div>
-<p>scroll</p>
-</div> */}
 
     </div>
   )
